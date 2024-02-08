@@ -1,9 +1,11 @@
-import styles from '../styles/App.module.css';
+import React from 'react';
+import MapComponent from './Map';
+import '../styles/App.module.css';
 
-const App = () => {
+function App() {
   return (
-    <div className={styles.appContainer}>
-      <h1>Hello, World!</h1>
+    <div className="appContainer">
+      <MapComponent />
     </div>
   );
 }
